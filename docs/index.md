@@ -5,12 +5,6 @@
 - `2a06:1287:3900::/40`
 - `2a12:3fc2:df00::/40`
 
-## NAT64
-### IP Range
-- `2a0e:b107:1a3b:dead:9999:9999::/96`
-### DNS64
-- `2a0e:b107:1a3b:dead:9999::beef`
-
 ## PoPs Location
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
@@ -31,6 +25,12 @@
 | CN TOHU-IX | CN-CAN1 | ✘ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfdd::/48`  
 | DE Euserv | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfda::/48`  
 | US MOE-IX | US-SEA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
+
+## NAT64
+#### IP Range
+- `2a0e:b107:1a3b:dead:9999:9999::/96`
+#### DNS64
+- `2a0e:b107:1a3b:dead:9999::beef`
 
 ## Art
 - `traceroute -q1 -N32 -w1 art.as208223.eu.org`
