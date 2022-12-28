@@ -23,8 +23,8 @@
 | Name | Location | Core | NAT64 | Anycast | Speedtest | Prefix | 
 | --- | --- | --- | --- | --- | --- | --- |
 | TPE Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
-| NTHU | TW-TPE2 | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfaa::/48`  
-| KSKB-IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
+| TPE NTHU | TW-TPE2 | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfaa::/48`  
+| TPE KSKB-IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
