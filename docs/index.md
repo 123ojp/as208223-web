@@ -26,7 +26,7 @@
 | NTHU | TW-TPE2 | ✘ | ✔ | ✔ | ✔ | 2a12:3fc2:dfaa::/48  
 | KSKB-IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | 2a12:3fc2:dfdb::/48  
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | 2a12:3fc2:dfdf::/48  
-| JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  2a12:3fc2:dfdb::/48  
+| JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  2a12:3fc2:dfdc::/48  
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | 2a12:3fc2:dfd9::/48  
 | CN THOU-IX | CN-CAN1 | ✘ | ✘ | ✘ | ✔ |  2a12:3fc2:dfdd::/48  
 | DE Euserv | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  2a12:3fc2:dfda::/48  
