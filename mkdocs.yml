@@ -1,0 +1,18 @@
+site_name: fOxO Internet Service Provider
+theme:
+  name: yeti
+  #custom_dir: static
+extra_css:
+  - css/hidefooter.css
+markdown_extensions:
+ # - pymdownx.tilde
+ # - pymdownx.extra
+nav:
+  - AS208223: index.md
+  - Speedtest: "http://speed.as208223.eu.org/"
+  - Status: "https://status.as208223.eu.org/"
+  - Looking Glass: "https://lg.as208223.eu.org/"
+  - PeeringDB: "https://www.peeringdb.com/net/29521"
+site_url: https://as208223.eu.org/
+repo_url: https://github.com/123ojp/as208223-web
+edit_uri: blob/main/docs/
