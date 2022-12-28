@@ -1,4 +1,4 @@
-# AS208223 | fOxO Internet Service Provider
+# **AS208223 | fOxO Internet Service Provider**
 ## IP Range
 - `2a0e:8f02:f03d::/48`
 - `2a0e:b107:1a30::/44`
@@ -26,7 +26,15 @@
 | DE Euserv | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfda::/48`  
 | US MOE-IX | US-SEA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
 
+## Anycast
+#### IP Range
+- `2a0e:b107:1a3b::/48`
+- [Test with ping.pe](https://ping6.ping.pe/2a0e:b107:1a3b::)
+
 ## NAT64
+#### Info
+- Anycast
+- IPv4 PoP is wgcf
 #### IP Range
 - `2a0e:b107:1a3b:dead:9999:9999::/96`
 #### DNS64
