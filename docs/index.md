@@ -1,36 +1,36 @@
 # AS208223 | fOxO Internet Service Provider
 ## IP Range
-- 2a0e:8f02:f03d::/48
-- 2a0e:b107:1a30::/44
-- 2a06:1287:3900::/40
-- 2a12:3fc2:df00::/40
+- `2a0e:8f02:f03d::/48`
+- `2a0e:b107:1a30::/44`
+- `2a06:1287:3900::/40`
+- `2a12:3fc2:df00::/40`
 
 ## NAT64
 ### IP Range
-- 2a0e:b107:1a3b:dead:9999:9999::/96
+- `2a0e:b107:1a3b:dead:9999:9999::/96`
 ### DNS64
-- 2a0e:b107:1a3b:dead:9999::beef
+- `2a0e:b107:1a3b:dead:9999::beef`
 
-## PoPs
+## PoPs Location
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
  - 香港 | Hong Kong
  - 新加坡 | Singapore
  - 美國西雅圖 | Seattle, United States of America
- - 德國 | Germany
+ - 德國法蘭克福 | Frankfurt, Germany  
 
-## Locations
+## Edge
 | Name | Location | Core | NAT64 | Anycast | Speedtest | Prefix | 
 | --- | --- | --- | --- | --- | --- | --- |
-| TPE Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | 2a0e:8f02:f03d::/48 
-| NTHU | TW-TPE2 | ✘ | ✔ | ✔ | ✔ | 2a12:3fc2:dfaa::/48  
-| KSKB-IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | 2a12:3fc2:dfdb::/48  
-| JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | 2a12:3fc2:dfdf::/48  
-| JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  2a12:3fc2:dfdc::/48  
-| SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | 2a12:3fc2:dfd9::/48  
-| CN THOU-IX | CN-CAN1 | ✘ | ✘ | ✘ | ✔ |  2a12:3fc2:dfdd::/48  
-| DE Euserv | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  2a12:3fc2:dfda::/48  
-| US MOE-IX | US-SEA1  | ✔ | ✔ | ✔ | ✔ | 2a12:3fc2:dfd8::/48  
+| TPE Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
+| NTHU | TW-TPE2 | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfaa::/48`  
+| KSKB-IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
+| JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
+| JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
+| SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
+| CN TOHU-IX | CN-CAN1 | ✘ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfdd::/48`  
+| DE Euserv | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfda::/48`  
+| US MOE-IX | US-SEA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
 
 ## Art
 - `traceroute -q1 -N32 -w1 art.as208223.eu.org`
@@ -58,3 +58,12 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 19  o-----------------88888----------------o (2a12:3fc2:dfd9:dead:1337:6666:0:18)  97.644 ms
 20  EOF (2a12:3fc2:dfd9:dead:1337:6666:0:ffff)  100.581 ms
 ```
+
+## Special Thanks
+| Name | Reason | 
+| --- | --- |
+| AS140731 TOHU Public Internet | Free transit in Hong Kong & Singapore <br> Free VM in TOHU-IX 
+| AS138211 MoeQing Network Service | Free transit in Seattle <br> Free VM in MOE-IX 
+| AS138517 KSKB | Free VM in Poema-IX  
+| AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
+| AS212895 Route64 |  Free transit in Germany
