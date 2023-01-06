@@ -23,9 +23,11 @@
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | HK Yxvm | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
-| CN TOHU-IX | CN-CAN1 | ✘ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfdd::/48`  
+| CN TOHU-IX | CN-CAN1 | ✘ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfdd::/48`
+| CN MOE-IX CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfd7::/48`
 | DE Euserv | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfda::/48`  
-| US MOE-IX | US-SEA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
+| US MOE-IX SEA | US-SEA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
+| US MOE-IX DAL | US-DAL1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`  
 
 ## Anycast
 #### IP Range
