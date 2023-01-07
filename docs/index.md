@@ -73,8 +73,8 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 ## Special Thanks
 | Name | Reason | 
 | --- | --- |
+| AS138211 MoeQing Network Service | Free transit in US Seattle <br> Free VM in US Seattle &  US Dallas <br> Free computer in CN Zhengzhou
 | AS140731 TOHU Public Internet | Free transit in Hong Kong & Singapore <br> Free VM in TOHU-IX 
-| AS138211 MoeQing Network Service | Free transit in Seattle <br> Free VM in MOE-IX 
 | AS138517 KSKB | Free VM in Poema-IX  
 | AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
 | AS212895 Route64 |  Free transit in Germany
