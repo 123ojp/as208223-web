@@ -18,16 +18,18 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | TPE Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
 | TPE NTHU | TW-TPE2 | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfaa::/48`  
-| TPE KSKB-IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
+| TPE Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
+| TPE AWS | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | HK Yxvm | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | HK HAT | HK-HKG2 | ✘ | ✔ | ✔ | ✘ |  `2a12:3fc2:dfdd::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
-| CN FreeVm CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfd7::/48`
-| DE AWS | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfda::/48`  
+| CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfd7::/48`
 | US MOE-IX SEA | US-SEA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
-| US MOE-IX DAL | US-DAL1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`  
+| DE AWS | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfda::/48`  
+| NL Zero IX | NL-AMS1 |  ✘ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfd4::/48`  
+<!--| US MOE-IX DAL | US-DAL1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`  -->
 
 ## Anycast
 #### IP Range
@@ -73,9 +75,10 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 ## Special Thanks
 | Name | Reason | 
 | --- | --- |
-| AS138211 MoeQing Network Service | Free transit in US Seattle  & Singapore <br> Free VM in US Seattle &  US Dallas <br> Free computer in Somewhere we can't say
+| AS138211 MoeQing Network Service | Free transit in US Seattle  & Singapore <br> Free VM in US Seattle <br> Free computer in Somewhere we can't say
 | AS203314 Hats Network | Free VM & Transit in Hong Kong |
-| AS140731 TOHU Public Internet | Free transit in Hong Kong & Singapore 
-| AS138517 KSKB | Free VM in Poema-IX  
+| AS138517 KSKB | Free VM in Poema IX  
+| AS57406 Zero Distance LLC | Free VM in Zero IX  
 | AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
 | AS212895 Route64 |  Free transit in Germany
+<!--| AS140731 TOHU Public Internet | Free transit in Hong Kong & Singapore -->
