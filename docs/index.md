@@ -11,7 +11,8 @@
  - 香港 | Hong Kong
  - 新加坡 | Singapore
  - 美國西雅圖 | Seattle, United States of America
- - 德國法蘭克福 | Frankfurt, Germany  
+ - 德國法蘭克福 | Frankfurt, Germany
+ - 荷蘭阿姆斯特丹 | Amsterdam, Netherlands
 
 ## Edge
 | Name | Location | Core | NAT64 | Anycast | Speedtest | Prefix | 
@@ -77,8 +78,8 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | --- | --- |
 | AS138211 MoeQing Network Service | Free transit in US Seattle  & Singapore <br> Free VM in US Seattle <br> Free computer in Somewhere we can't say
 | AS203314 Hats Network | Free VM & Transit in Hong Kong |
+| AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS138517 KSKB | Free VM in Poema IX  
 | AS57406 Zero Distance LLC | Free VM in Zero IX  
 | AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
 | AS212895 Route64 |  Free transit in Germany
-<!--| AS140731 TOHU Public Internet | Free transit in Hong Kong & Singapore -->
