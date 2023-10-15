@@ -22,6 +22,7 @@
 | TPE NTHU | TW-TPE2 | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfaa::/48`  
 | TPE Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
 | TPE AWS | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
+| TPE STUIX | TW-TPE5 | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd2::/48`
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | HK Yxvm | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
@@ -32,6 +33,7 @@
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfda::/48`  
 | NL Zero IX | NL-AMS1 |  ✘ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfd4::/48`  
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
+
 
 ## Anycast
 #### IP Range
@@ -85,3 +87,4 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | AS61302 HUIZE LTD | Free VM 
 | AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
 | AS212895 Route64 |  Free transit in Germany
+| AS6939 HE.net |  Free transit in Taipei
