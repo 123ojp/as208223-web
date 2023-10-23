@@ -19,20 +19,22 @@
 | Name | Location | Core | NAT64 | Anycast | Speedtest | Prefix | 
 | --- | --- | --- | --- | --- | --- | --- |
 | TPE Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
-| TPE NTHU | TW-TPE2 | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfaa::/48`  
+| TPE NTHU | TW-TPE2 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfaa::/48`  
 | TPE Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
 | TPE AWS | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
-| TPE STUIX | TW-TPE5 | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd2::/48`
+| TPE STUIX | TW-TPE5 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd2::/48`
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | HK Yxvm | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | HK HAT | HK-HKG2 | ✘ | ✔ | ✔ | ✘ |  `2a12:3fc2:dfdd::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
-| CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfd7::/48`
-| US MOE-IX SEA | US-SEA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
-| DE AWS | DE-FRA1 | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfda::/48`  
-| NL Zero IX | NL-AMS1 |  ✘ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfd4::/48`  
+| US MOE-IX SEA | US-SEA1  | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
+| US Oracle | US-SJC1  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
+| DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
+| NL Zero IX | NL-AMS1 |  ✘ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfd4::/48`  
+| CN IXPSU | CN-HGH1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd3::/48`
+| CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 
 
 ## Anycast
@@ -46,6 +48,8 @@
 - IPv4 PoP is wgcf
 #### IP Range
 - `2a0e:b107:1a3b:dead:9999:9999::/96`
+- [Test with ping.pe](https://ping6.ping.pe/2a0e:b107:1a3b:dead:9999:9999:101:101)
+
 #### DNS64
 - `2a0e:b107:1a3b:dead:9999::beef`
 
@@ -88,3 +92,4 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
 | AS212895 Route64 |  Free transit in Germany
 | AS6939 HE.net |  Free transit in Taipei
+| AS945 August Internet |  Free transit in Taipei
