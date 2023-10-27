@@ -15,6 +15,7 @@
  - 德國法蘭克福 | Frankfurt, Germany
  - 荷蘭阿姆斯特丹 | Amsterdam, Netherlands
 
+
 ## Edge
 | Name | Location | Core | NAT64 | Anycast | Speedtest | Prefix | 
 | --- | --- | --- | --- | --- | --- | --- |
@@ -30,9 +31,10 @@
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
 | US MOE-IX SEA | US-SEA1  | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
-| US Oracle | US-SJC1  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
+| US Oracle | US-SJC2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
 | NL Zero IX | NL-AMS1 |  ✘ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfd4::/48`  
+| FR Oracle | FR-MRS1 | ✔ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfd0::/48`  
 | CN IXPSU | CN-HGH1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd3::/48`
 | CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 
