@@ -2,7 +2,7 @@
 ## IP Range
 - `2a0e:8f02:f03d::/48`
 - `2a0e:b107:1a30::/44`
-- `2a06:1287:3900::/40`
+- `2602:f9f6:410::/44`
 - `2a12:3fc2:df00::/40`
 
 ## PoPs Location
@@ -13,7 +13,7 @@
  - 美國西雅圖 | Seattle, United States of America
  - 美國聖荷西 | San Jose, United States of America
  - 德國法蘭克福 | Frankfurt, Germany
- - 荷蘭阿姆斯特丹 | Amsterdam, Netherlands
+
 
 
 ## Edge
@@ -28,14 +28,13 @@
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | HK Yxvm | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | HK HAT | HK-HKG2 | ✘ | ✔ | ✔ | ✘ |  `2a12:3fc2:dfdd::/48`
+| HK AWS | HK-HKG3 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfcf::/48`
+| KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
 | US MOE-IX SEA | US-SEA1  | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
-| US Oracle | US-SJC2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
+| US AWS | US-SEA2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
-| NL Zero IX | NL-AMS1 |  ✘ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfd4::/48`  
-| FR Oracle | FR-MRS1 | ✔ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfd0::/48`  
-| CN IXPSU | CN-HGH1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd3::/48`
 | CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 
 
@@ -85,13 +84,14 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 ## Special Thanks
 | Name | Reason | 
 | --- | --- |
-| AS138211 MoeQing Network Service | Free transit in US Seattle  & Singapore <br> Free VM in US Seattle <br> Free computer
-| AS203314 Hats Network | Free VM & Transit in Hong Kong |
-| AS140731 TOHU Public Internet | Free transit in Hong Kong & San Jose & Amsterdam
+| AS138211 MoeQing Network Service |  Free VM in US Seattle <br> Free computer
+| AS198304  Pinjia Zhao | Free transit in Hong Kong & Singapore
+| AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS138517 KSKB | Free VM in Poema IX  
-| AS57406 Zero Distance LLC | Free VM in Zero IX SJC & Zero IX AMS 
-| AS61302 HUIZE LTD | Free VM 
+| AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
 | AS212895 Route64 |  Free transit in Germany
 | AS6939 HE.net |  Free transit in Taipei
 | AS945 August Internet |  Free transit in Taipei
+
+<!-- | AS203314 Hats Network | Free VM & Transit in Hong Kong | -->
