@@ -31,12 +31,12 @@
 | KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
 | US AWS | US-SEA2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
+| US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
 | CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 
 <!-- | HK HAT | HK-HKG2 | ✘ | ✔ | ✔ | ✘ |  `2a12:3fc2:dfdd::/48` 
 | US MOE-IX SEA | US-SEA1  | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
-| US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 
 -->
 
@@ -89,13 +89,13 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | AS138211 MoeQing Network Service |  Free computer resource
 | AS198304  Pinjia Zhao | Free transit in Hong Kong & Singapore
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
+| AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS138517 KSKB | Free VM in Poema IX  
 | AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
 | AS6939 HE.net |  Free transit in Taipei
 | AS41051 Openfactory GmbH | ASN registry  &  Free transit in Germany
 
 <!-- | AS203314 Hats Network | Free VM & Transit in Hong Kong | 
-| AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS212895 Route64 |  Free transit in Germany
 
 -->
