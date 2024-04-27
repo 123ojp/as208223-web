@@ -10,7 +10,7 @@
  - 日本東京 | Tokyo, Japan
  - 香港 | Hong Kong
  - 新加坡 | Singapore
- - 美國聖荷西 | San Jose, United States of America
+ - 美國弗里蒙特 | Fremont, United States of America
  - 德國法蘭克福 | Frankfurt, Germany
 
 <!-- - 美國西雅圖 | Seattle, United States of America-->
@@ -20,10 +20,11 @@
 | Name | Location | Core | NAT64 | Anycast | Speedtest | Prefix | 
 | --- | --- | --- | --- | --- | --- | --- |
 | TPE Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
-| TPE NTHU | TW-TPE2 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfaa::/48`  
+| TPE NTHU | TW-TPE2 | ✘ | ✔ | ✘ | ✘ | `2a12:3fc2:dfaa::/48`  
 | TPE Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
 | TPE AWS | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
 | TPE STUIX | TW-TPE5 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd2::/48`
+| TPE Misaka | TW-TPE6 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfdd::/48` 
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | HK Yxvm | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
@@ -33,11 +34,11 @@
 | US AWS | US-SEA2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
+| FI Pigeon IX | FI-HEL1 | ✘ | ✔ | ✘ | ✔ | `2a12:3fc2:dfd4::/48`
 | CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 
-<!-- | HK HAT | HK-HKG2 | ✘ | ✔ | ✔ | ✘ |  `2a12:3fc2:dfdd::/48` 
+<!-- 
 | US MOE-IX SEA | US-SEA1  | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd8::/48`  
-
 -->
 
 ## Anycast
@@ -86,12 +87,12 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 ## Special Thanks
 | Name | Reason | 
 | --- | --- |
-| AS138211 MoeQing Network Service |  Free computer resource
-| AS198304  Pinjia Zhao | Free transit in Hong Kong & Singapore
+| AS138211 MoeQing Network Service |  Free computer resource & Free IPv6 Prefix /44
+| AS198304  Pinjia Zhao | Free transit in Hong Kong & Singapore & Germany & Taiwan
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS138517 KSKB | Free VM in Poema IX  
-| AS202888 ZH NETWORK LIMITED | Free IPv6 Prefix /40
+| ~~AS202888 ZH NETWORK LIMITED (Archived)~~ <br> AS210000 DAOport Internet Infrastructure | Free IPv6 Prefix /40
 | AS6939 HE.net |  Free transit in Taipei
 | AS41051 Openfactory GmbH | ASN registry  &  Free transit in Germany
 
