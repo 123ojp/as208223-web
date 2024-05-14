@@ -11,6 +11,7 @@
  - 香港 | Hong Kong
  - 新加坡 | Singapore
  - 美國弗里蒙特 | Fremont, United States of America
+ - 美國芝加哥 | Chicago, United States of America
  - 德國法蘭克福 | Frankfurt, Germany
 
 <!-- - 美國西雅圖 | Seattle, United States of America-->
