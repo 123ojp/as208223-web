@@ -1,11 +1,17 @@
 # **AS208223 | fOxO Internet Service Provider**
 ## IP Range
+- `160.25.104.0/23`
+- `2401:af20::/32`
 - `2a0e:8f02:f03d::/48`
 - `2a0e:b107:1a30::/44`
 - `2602:f9f6:410::/44`
 - `2a12:3fc2:df00::/40`
 
 ## PoPs Location
+### IPv4
+ - 台灣台北 | Taipei, Taiwan
+ - 日本東京 | Tokyo, Japan
+### IPv6
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
  - 香港 | Hong Kong
@@ -25,10 +31,11 @@
 | TPE Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
 | TPE AWS | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
 | TPE STUIX | TW-TPE5 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd2::/48`
-| TPE Misaka | TW-TPE6 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfdd::/48` 
+| TPE FCU | TW-TXG1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfce::/48`
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | HK Yxvm | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
+| HK DMIT |  HK-HKG2 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfdd::/48` 
 | HK AWS | HK-HKG3 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfcf::/48`
 | KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
@@ -38,6 +45,7 @@
 | US Azure SAN | US-SAN1  | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcd::/48`  
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
 | FI Pigeon IX | FI-HEL1 | ✘ | ✔ | ✘ | ✔ | `2a12:3fc2:dfd4::/48`
+| TR Pigeon LXC | TR-YEI1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
 | CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 
 <!-- 
@@ -90,8 +98,9 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 ## Special Thanks
 | Name | Reason | 
 | --- | --- |
+| AS18041 Taiwan Digital Streaming |  Free IPv4 transit in Taipei
 | AS138211 MoeQing Network Service |  Free computer resource & Free IPv6 Prefix /44
-| AS198304  Pinjia Zhao | Free transit in Hong Kong & Singapore & Germany & Taiwan
+| AS44324 MoeDove | Free transit in Hong Kong & Singapore & America & Germany & Taiwan <br> Free VM in Finland & Turkey
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS138517 KSKB | Free VM in Poema IX  
