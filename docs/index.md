@@ -11,13 +11,13 @@
 ### IPv4
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
+ - 香港 | Hong Kong
 ### IPv6
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
  - 香港 | Hong Kong
  - 新加坡 | Singapore
  - 美國弗里蒙特 | Fremont, United States of America
- - 美國芝加哥 | Chicago, United States of America
  - 德國法蘭克福 | Frankfurt, Germany
 
 <!-- - 美國西雅圖 | Seattle, United States of America-->
@@ -26,29 +26,30 @@
 ## Edge
 | Name | Location | Core | NAT64 | Anycast | Speedtest | Prefix | 
 | --- | --- | --- | --- | --- | --- | --- |
-| TPE Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
-| TPE NTHU | TW-TPE2 | ✘ | ✔ | ✘ | ✘ | `2a12:3fc2:dfaa::/48`  
-| TPE Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
-| TPE AWS | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
-| TPE STUIX | TW-TPE5 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd2::/48`
-| TPE FCU | TW-TXG1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfce::/48`
+| TW Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
+| TW NTHU | TW-TPE2 | ✘ | ✔ | ✘ | ✘ | `2a12:3fc2:dfaa::/48`  
+| TW Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
+| TW AWS | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
+| TW STUIX | TW-TPE5 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd2::/48`
+| TW NTU | TW-TPE-6 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcb::/48`
+| TW FCU | TW-TXG1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfce::/48`
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
-| HK Yxvm | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
+| HK Skywolf | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | HK DMIT |  HK-HKG2 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfdd::/48` 
 | HK AWS | HK-HKG3 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfcf::/48`
 | KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
 | US AWS | US-SEA2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
-| US Vultr ORD | US-ORD1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48`  
 | US Azure SAN | US-SAN1  | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcd::/48`  
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
 | FI Pigeon IX | FI-HEL1 | ✘ | ✔ | ✘ | ✔ | `2a12:3fc2:dfd4::/48`
-| TR Pigeon LXC | TR-YEI1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
+| AU Pigeon LXC | AU-SYD1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
 | CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 
 <!-- 
+| US Vultr ORD | US-ORD1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48`  
 
 -->
 
