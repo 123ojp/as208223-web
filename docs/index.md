@@ -43,6 +43,7 @@
 | US AWS | US-SEA2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 | US Azure SAN | US-SAN1  | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcd::/48`  
+| US Kawaii MCI | US-MCI1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48` 
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
 | FI Pigeon IX | FI-HEL1 | ✘ | ✔ | ✘ | ✔ | `2a12:3fc2:dfd4::/48`
 | AU Pigeon LXC | AU-SYD1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
@@ -100,12 +101,13 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | Name | Reason | 
 | --- | --- |
 | AS18041 Taiwan Digital Streaming |  Free IPv4 transit in Taipei
-| AS138211 MoeQing Network Service |  Free computer resource & Free IPv6 Prefix /44
-| AS44324 MoeDove | Free transit in Hong Kong & Singapore & America & Germany & Taiwan <br> Free VM in Finland & Turkey
+| AS44324 MoeDove | Free transit in Hong Kong & Singapore & America & Germany & Taiwan <br> Free VM in Finland & Australia
+| AS27523 Kawaii Networks | Free transit in America <br> Free VM in America
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS138517 KSKB | Free VM in Poema IX  
 | <del>AS202888 ZH NETWORK LIMITED (Archived)</del> <br> AS210000 DAOport Internet Infrastructure | Free IPv6 Prefix /40
+| AS138211 MoeQing Network Service |  Free IPv6 Prefix /44
 | AS6939 HE.net |  Free transit in Taipei
 | AS41051 Openfactory GmbH | ASN registry  &  Free transit in Germany
 
