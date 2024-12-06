@@ -18,6 +18,7 @@
  - 香港 | Hong Kong
  - 新加坡 | Singapore
  - 美國弗里蒙特 | Fremont, United States of America
+ - 美國堪薩斯 | Kansas, United States of America
  - 德國法蘭克福 | Frankfurt, Germany
 
 <!-- - 美國西雅圖 | Seattle, United States of America-->
@@ -44,14 +45,15 @@
 | US AWS | US-SEA2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 | US Kawaii MCI | US-MCI1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48` 
+| US NHIX MCI | US-MCI2  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfca::/48` 
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
 | FI Pigeon IX | FI-HEL1 | ✘ | ✔ | ✘ | ✔ | `2a12:3fc2:dfd4::/48`
 | AU Pigeon LXC | AU-SYD1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
-| CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
+
 
 <!-- 
 | US Vultr ORD | US-ORD1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48`  
-
+| CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 -->
 
 ## Anycast
@@ -104,6 +106,7 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | AS44324 MoeDove | Free transit in Hong Kong & Singapore & America & Germany & Taiwan <br> Free VM in Finland & Australia
 | AS27523 Kawaii Networks | Free transit in America <br> Free VM in America
 | AS215364 Infinitron Internet LLC | Free transit in Hong Kong <br> Free VM in JJIX
+| AS216324 Hyper Group Network Ltd | Free transit in America <br> Free VM in HNIX
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS138517 KSKB | Free VM in Poema IX  
