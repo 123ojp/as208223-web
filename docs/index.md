@@ -11,7 +11,7 @@
 ### IPv4
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
- - 香港 | Hong Kong
+
 ### IPv6
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
@@ -36,22 +36,22 @@
 | TW FCU | TW-TXG1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfce::/48`
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
-| HK Skywolf | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | HK DMIT |  HK-HKG2 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfdd::/48` 
 | HK AWS | HK-HKG3 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfcf::/48`
-| HK JJIX | HK-HKG4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcd::/48`  
-| KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
-| US AWS | US-SEA2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 | US Kawaii MCI | US-MCI1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48` 
 | US NHIX MCI | US-MCI2  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfca::/48` 
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
-| FI Pigeon IX | FI-HEL1 | ✘ | ✔ | ✘ | ✔ | `2a12:3fc2:dfd4::/48`
-| AU Pigeon LXC | AU-SYD1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
 
 
 <!-- 
+| HK Skywolf | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
+| FI Pigeon IX | FI-HEL1 | ✘ | ✔ | ✘ | ✔ | `2a12:3fc2:dfd4::/48`
+| US AWS | US-SEA2  | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd1::/48`
+| HK JJIX | HK-HKG4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcd::/48`  
+| KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
+| AU Pigeon LXC | AU-SYD1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
 | US Vultr ORD | US-ORD1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48`  
 | CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 -->
@@ -102,20 +102,21 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 ## Special Thanks
 | Name | Reason | 
 | --- | --- |
-| AS18041 Taiwan Digital Streaming |  Free IPv4 transit in Taipei
-| AS44324 MoeDove | Free transit in Hong Kong & Singapore & America & Germany & Taiwan <br> Free VM in Finland & Australia
+| AS18041 Taiwan Digital Streaming |  Free IPv4 & IPv6 transit in Taipei
+| AS44324 MoeDove | Free transit in Hong Kong & Singapore & America & Germany & Taiwan
 | AS27523 Kawaii Networks | Free transit in America <br> Free VM in America
-| AS215364 Infinitron Internet LLC | Free transit in Hong Kong <br> Free VM in JJIX
 | AS216324 Hyper Group Network Ltd | Free transit in America <br> Free VM in HNIX
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS138517 KSKB | Free VM in Poema IX  
 | <del>AS202888 ZH NETWORK LIMITED (Archived)</del> <br> AS210000 DAOport Internet Infrastructure | Free IPv6 Prefix /40
 | AS138211 MoeQing Network Service |  Free IPv6 Prefix /44
-| AS6939 HE.net |  Free transit in Taipei
+| AS6939 Hurricane Electric |  Free transit in Taipei
 | AS41051 Openfactory GmbH | ASN registry  &  Free transit in Germany
 
-<!-- | AS203314 Hats Network | Free VM & Transit in Hong Kong | 
+<!-- 
+| AS203314 Hats Network | Free VM & Transit in Hong Kong | 
 | AS212895 Route64 |  Free transit in Germany
+| AS215364 Infinitron Internet LLC | Free transit in Hong Kong <br> Free VM in JJIX
 
 -->
