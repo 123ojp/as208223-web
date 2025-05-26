@@ -11,11 +11,13 @@
 ### IPv4
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
+ - 加拿大溫哥華 | Vancouver, Canada
 
 ### IPv6
  - 台灣台北 | Taipei, Taiwan
  - 日本東京 | Tokyo, Japan
  - 香港 | Hong Kong
+ - 加拿大溫哥華 | Vancouver, Canada
  - 新加坡 | Singapore
  - 美國弗里蒙特 | Fremont, United States of America
  - 美國堪薩斯 | Kansas, United States of America
@@ -39,6 +41,7 @@
 | HK DMIT |  HK-HKG2 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfdd::/48` 
 | HK AWS | HK-HKG3 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfcf::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
+| CA Unmetered.Exchange | CA-YVR1 | ✔ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 | US Kawaii MCI | US-MCI1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48` 
 | US NHIX MCI | US-MCI2  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfca::/48` 
@@ -103,21 +106,22 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | Name | Reason | 
 | --- | --- |
 | AS18041 Taiwan Digital Streaming |  Free IPv4 & IPv6 transit in Taipei
-| AS44324 MoeDove | Free transit in Hong Kong & Singapore & America & Taiwan
+| AS44324 MoeDove | Free transit in Hong Kong & Singapore & America & Taiwan  <br> Free VM in Hong Kong
+| AS215828 TMW Global Networks | Free transit in Frankfurt <br>  Free VM in TMW-IX
 | AS27523 Kawaii Networks | Free transit in America <br> Free VM in America
 | AS216324 Hyper Group Network Ltd | Free transit in America <br> Free VM in HNIX
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS138517 KSKB | Free VM in Poema IX  
-| AS215828 TMW Global Networks | Free VM in TMW-IX
 | <del>AS202888 ZH NETWORK LIMITED (Archived)</del> <br> AS210000 DAOport Internet Infrastructure | Free IPv6 Prefix /40
 | AS138211 MoeQing Network Service |  Free IPv6 Prefix /44
-| AS6939 Hurricane Electric |  Free transit in Taipei
-| AS41051 Openfactory GmbH | ASN registry  &  Free transit in Germany
+| AS6939 Hurricane Electric |  Free transit in Taipei & Canada
+| AS41051 Openfactory GmbH | ASN registry & Free transit in Germany
+| AS212895 Route64 |  Free transit in Germany
+
 
 <!-- 
 | AS203314 Hats Network | Free VM & Transit in Hong Kong | 
-| AS212895 Route64 |  Free transit in Germany
 | AS215364 Infinitron Internet LLC | Free transit in Hong Kong <br> Free VM in JJIX
 
 -->
