@@ -40,6 +40,7 @@
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
 | HK DMIT |  HK-HKG2 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfdd::/48` 
 | HK AWS | HK-HKG3 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfcf::/48`
+| CN AKIX TFU | CN-TFU1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd3::/48`
 | SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
 | CA Unmetered.Exchange | CA-YVR1 | ✔ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
@@ -56,7 +57,6 @@
 | KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
 | AU Pigeon LXC | AU-SYD1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
 | US Vultr ORD | US-ORD1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48`  
-| CN Computer CGO | CN-CGO1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd7::/48`
 -->
 
 ## Anycast
@@ -113,6 +113,7 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS57406 Zero Distance LLC | Free VM in Zero IX SJC
 | AS138517 KSKB | Free VM in Poema IX  
+| AS213605 Pysio NetWork | Free VM in AKIX  
 | <del>AS202888 ZH NETWORK LIMITED (Archived)</del> <br> AS210000 DAOport Internet Infrastructure | Free IPv6 Prefix /40
 | AS138211 MoeQing Network Service |  Free IPv6 Prefix /44
 | AS6939 Hurricane Electric |  Free transit in Taipei & Canada
