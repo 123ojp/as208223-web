@@ -18,6 +18,7 @@
  - 日本東京 | Tokyo, Japan
  - 香港 | Hong Kong
  - 加拿大溫哥華 | Vancouver, Canada
+ - 加拿大多倫多 | Toronto, Canada
  - 新加坡 | Singapore
  - 美國弗里蒙特 | Fremont, United States of America
  - 美國堪薩斯 | Kansas, United States of America
@@ -45,10 +46,11 @@
 | SG MDIX | SG-SIN2 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
 | CA Unmetered.Exchange | CA-YVR1 | ✔ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | CA Home | CA-YVR2| ✔ | ✘ | ✘ | ✘ | `2401:af20:f03d::/48`
+| CA Oracle | CA-YYZ1| ✘ | ✔ | ✔ | ✘ | `2401:af20:dfc8::/48`
 | US Zero IX | US-SJC1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 | US Kawaii MCI | US-MCI1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48` 
 | US NHIX MCI | US-MCI2  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfca::/48` 
-| DE TMW-IX | DE-FRA2 | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd4::/48`
+| DE TMW-IX | DE-FRA2 | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd4::/48`
 
 
 <!-- 
