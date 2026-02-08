@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        <link rel="canonical" href="https://as208223.eu.org/">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>fOxO Internet Service Provider</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/color-brewer.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="css/hidefooter.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">fOxO Internet Service Provider</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="." class="nav-link active" aria-current="page">AS208223</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="http://speed.as208223.eu.org/" class="nav-link">Speedtest</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://status.as208223.eu.org/" class="nav-link">Status</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://lg.as208223.eu.org/" class="nav-link">Looking Glass</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.peeringdb.com/net/29521" class="nav-link">PeeringDB</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/123ojp/as208223-web/blob/main/docs/index.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#as208223-foxo-internet-service-provider" class="nav-link">AS208223 | fOxO Internet Service Provider</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#ip-range" class="nav-link">IP Range</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#pops-location" class="nav-link">PoPs Location</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#edge" class="nav-link">Edge</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#anycast" class="nav-link">Anycast</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#nat64" class="nav-link">NAT64</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#art" class="nav-link">Art</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#special-thanks" class="nav-link">Special Thanks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="as208223-foxo-internet-service-provider"><strong>AS208223 | fOxO Internet Service Provider</strong></h1>
+<h2 id="ip-range">IP Range</h2>
+<ul>
+<li><code>160.25.104.0/23</code></li>
+<li><code>2401:af20::/32</code></li>
+<li><code>2a0e:8f02:f03d::/48</code></li>
+<li><code>2a0e:b107:1a30::/44</code></li>
+<li><code>2602:f9f6:410::/44</code></li>
+<li><code>2a12:3fc2:df00::/40</code></li>
+</ul>
+<h2 id="pops-location">PoPs Location</h2>
+<h3 id="ipv4">IPv4</h3>
+<ul>
+<li>台灣台北 | Taipei, Taiwan</li>
+<li>日本東京 | Tokyo, Japan</li>
+<li>香港 | Hong Kong</li>
+</ul>
+<h3 id="ipv6">IPv6</h3>
+<ul>
+<li>台灣台北 | Taipei, Taiwan</li>
+<li>日本東京 | Tokyo, Japan</li>
+<li>香港 | Hong Kong</li>
+<li>加拿大多倫多 | Toronto, Canada</li>
+<li>新加坡 | Singapore</li>
+<li>美國堪薩斯 | Kansas, United States of America</li>
+<li>德國法蘭克福 | Frankfurt, Germany</li>
+</ul>
+<!-- - 美國西雅圖 | Seattle, United States of America-->
+
+<h2 id="edge">Edge</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Location</th>
+<th>Core</th>
+<th>NAT64</th>
+<th>Anycast</th>
+<th>Speedtest</th>
+<th>Prefix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TW Home</td>
+<td>TW-TPE1</td>
+<td>✔</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a0e:8f02:f03d::/48</code></td>
+</tr>
+<tr>
+<td>TW NTHU</td>
+<td>TW-TPE2</td>
+<td>✘</td>
+<td>✔</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfaa::/48</code></td>
+</tr>
+<tr>
+<td>TW Poema IX</td>
+<td>TW-TPE3</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfdb::/48</code></td>
+</tr>
+<tr>
+<td>TW TPIX</td>
+<td>TW-TPE4</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfd5::/48</code></td>
+</tr>
+<tr>
+<td>TW STUIX</td>
+<td>TW-TPE5</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+<td><code>2a12:3fc2:dfd2::/48</code></td>
+</tr>
+<tr>
+<td>TW FCU</td>
+<td>TW-TXG1</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfce::/48</code></td>
+</tr>
+<tr>
+<td>JP Oracle</td>
+<td>JP-OSA1</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+<td><code>2a12:3fc2:dfdf::/48</code></td>
+</tr>
+<tr>
+<td>JP Vultr</td>
+<td>JP-TYO1</td>
+<td>✘</td>
+<td>✘</td>
+<td>✔</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfdc::/48</code></td>
+</tr>
+<tr>
+<td>HK MDIX</td>
+<td>HK-HKG1</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2401:af20:dfd7::/48</code></td>
+</tr>
+<tr>
+<td>HK DMIT</td>
+<td>HK-HKG2</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfdd::/48</code></td>
+</tr>
+<tr>
+<td>HK AKIX</td>
+<td>HK-HKG3</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfcf::/48</code></td>
+</tr>
+<tr>
+<td>HK DSIX</td>
+<td>HK-HKG5</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfd1::/48</code></td>
+</tr>
+<tr>
+<td>CN Spark VM</td>
+<td>CN-SZX1</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2401:af20:dfd0::/48</code></td>
+</tr>
+<tr>
+<td>SG Oracle</td>
+<td>SG-SIN1</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+<td><code>2a12:3fc2:dfd9::/48</code></td>
+</tr>
+<tr>
+<td>CA Oracle</td>
+<td>CA-YYZ1</td>
+<td>✘</td>
+<td>✔</td>
+<td>✔</td>
+<td>✘</td>
+<td><code>2401:af20:dfc8::/48</code></td>
+</tr>
+<tr>
+<td>CA CXIX</td>
+<td>CA-YUL1</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfcc::/48</code></td>
+</tr>
+<tr>
+<td>US Kawaii MCI</td>
+<td>US-MCI1</td>
+<td>✘</td>
+<td>✔</td>
+<td>✔</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfd8::/48</code></td>
+</tr>
+<tr>
+<td>US NHIX MCI</td>
+<td>US-MCI2</td>
+<td>✘</td>
+<td>✘</td>
+<td>✔</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfca::/48</code></td>
+</tr>
+<tr>
+<td>US Axivora MCI</td>
+<td>US-MCI3</td>
+<td>✘</td>
+<td>✘</td>
+<td>✔</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfd6::/48</code></td>
+</tr>
+<tr>
+<td>DE TMW-IX</td>
+<td>DE-FRA2</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+<td>✘</td>
+<td><code>2a12:3fc2:dfd4::/48</code></td>
+</tr>
+</tbody>
+</table>
+<!-- 
+| TW NTU | TW-TPE-6 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcb::/48`
+| DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
+| HK Skywolf | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
+| KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
+| US Vultr ORD | US-ORD1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48`  
+| CN AKIX TFU | CN-TFU1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd3::/48`
+| HK MDIX | HK-HKG4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcd::/48`  
+| CA Unmetered.Exchange | CA-YVR1 | ✔ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
+
+-->
+
+<h2 id="anycast">Anycast</h2>
+<h4 id="ip-range_1">IP Range</h4>
+<ul>
+<li><code>2a0e:b107:1a3b::/48</code></li>
+<li><a href="https://ping6.ping.pe/2a0e:b107:1a3b::">Test with ping.pe</a></li>
+</ul>
+<h2 id="nat64">NAT64</h2>
+<h4 id="info">Info</h4>
+<ul>
+<li>Anycast</li>
+<li>IPv4 PoP is wgcf</li>
+</ul>
+<h4 id="ip-range_2">IP Range</h4>
+<ul>
+<li><code>2a0e:b107:1a3b:dead:9999:9999::/96</code></li>
+<li><a href="https://ping6.ping.pe/2a0e:b107:1a3b:dead:9999:9999:101:101">Test with ping.pe</a></li>
+</ul>
+<h4 id="dns64">DNS64</h4>
+<ul>
+<li><code>2a0e:b107:1a3b:dead:9999::beef</code></li>
+</ul>
+<h2 id="art">Art</h2>
+<ul>
+<li><code>traceroute -q1 -N32 -w1 art.as208223.eu.org</code></li>
+</ul>
+<pre><code>traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hops max, 80 byte packets
+ 1  lg.gateway.sg-sin1.as208223.eu.org (2a12:3fc2:dfd9:dead:1::1)  0.062 ms
+ 2  o------------------88------------------o (2a12:3fc2:dfd9:dead:1337:6666:0:1)  5.487 ms
+ 3  o-----------------8888-----------------o (2a12:3fc2:dfd9:dead:1337:6666:0:2)  8.242 ms
+ 4  o----------------888888----------------o (2a12:3fc2:dfd9:dead:1337:6666:0:3)  16.096 ms
+ 5  o---------------88888888---------------o (2a12:3fc2:dfd9:dead:1337:6666:0:4)  28.522 ms
+ 6  o--------------8888888888--------------o (2a12:3fc2:dfd9:dead:1337:6666:0:5)  34.524 ms
+ 7  o------------88888888888888------------o (2a12:3fc2:dfd9:dead:1337:6666:0:6)  40.273 ms
+ 8  o----------------888888----------------o (2a12:3fc2:dfd9:dead:1337:6666:0:7)  47.938 ms
+ 9  o--------------8888888888--------------o (2a12:3fc2:dfd9:dead:1337:6666:0:8)  58.674 ms
+10  o------------88888888888888------------o (2a12:3fc2:dfd9:dead:1337:6666:0:9)  67.179 ms
+11  o----------888888888888888888----------o (2a12:3fc2:dfd9:dead:1337:6666:0:10)  74.714 ms
+12  o--------8888888888888888888888--------o (2a12:3fc2:dfd9:dead:1337:6666:0:11)  84.252 ms
+13  o------------88888888888888------------o (2a12:3fc2:dfd9:dead:1337:6666:0:12)  87.839 ms
+14  o---------88888888888888888888---------o (2a12:3fc2:dfd9:dead:1337:6666:0:13)  95.138 ms
+15  o------88888888888888888888888888------o (2a12:3fc2:dfd9:dead:1337:6666:0:14)  103.130 ms
+16  o---88888888888888888888888888888888---o (2a12:3fc2:dfd9:dead:1337:6666:0:15)  110.599 ms
+17  o88888888888888--8888888--8888888888888o (2a12:3fc2:dfd9:dead:1337:6666:0:16)  118.779 ms
+18  o-----------------8888-----------------o (2a12:3fc2:dfd9:dead:1337:6666:0:17)  129.343 ms
+19  o-----------------8888-----------------o (2a12:3fc2:dfd9:dead:1337:6666:0:18)  132.041 ms
+20  EOF (2a12:3fc2:dfd9:dead:1337:6666:0:ffff)  141.533 ms
+</code></pre>
+<h2 id="special-thanks">Special Thanks</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AS18041 Taiwan Digital Streaming</td>
+<td>Free transit in Taipei</td>
+</tr>
+<tr>
+<td>AS44324 MoeDove</td>
+<td>Free transit in Taiwan &amp; Hong Kong &amp; Japan &amp; Singapore &amp; Canada  <br> Free VM in Hong Kong</td>
+</tr>
+<tr>
+<td>AS215828 TMW Global Networks</td>
+<td>Free transit in Frankfurt <br>  Free VM in TMW-IX</td>
+</tr>
+<tr>
+<td>AS27523 Kawaii Networks</td>
+<td>Free transit in America <br> Free VM in America</td>
+</tr>
+<tr>
+<td>AS151230 Guangdong Tongri Network Technology</td>
+<td>Free IEPL ( Shenzhen &lt;-&gt; Hong Kong ) VM</td>
+</tr>
+<tr>
+<td>AS209109 DataSphere</td>
+<td>Free transit in Hong Kong <br> Free VM in DSIX</td>
+</tr>
+<tr>
+<td>AS216324 Hyper Group Network Ltd</td>
+<td>Free transit in America <br> Free VM in HNIX</td>
+</tr>
+<tr>
+<td>AS204539 Axivora Connect LtD</td>
+<td>Free transit in America <br> Free VM in America</td>
+</tr>
+<tr>
+<td>AS138517 KSKB</td>
+<td>Free VM in Poema IX</td>
+</tr>
+<tr>
+<td>AS151673 CXY</td>
+<td>Free VM in CXIX</td>
+</tr>
+<tr>
+<td>AS213605 Pysio NetWork</td>
+<td>Free transit in Taiwan &amp; Hong Kong <br> Free VM in AKIX</td>
+</tr>
+<tr>
+<td><del>AS202888 ZH NETWORK LIMITED (Archived)</del> <br> AS210000 DAOport Internet Infrastructure</td>
+<td>Free IPv6 Prefix /40</td>
+</tr>
+<tr>
+<td>AS138211 MoeQing Network Service</td>
+<td>Free IPv6 Prefix /44</td>
+</tr>
+<tr>
+<td>AS6939 Hurricane Electric</td>
+<td>Free transit in Taipei &amp; Canada</td>
+</tr>
+<tr>
+<td>AS41051 Openfactory GmbH</td>
+<td>ASN registry &amp; Free transit in Germany</td>
+</tr>
+<tr>
+<td>AS212895 Route64</td>
+<td>Free transit in Germany</td>
+</tr>
+</tbody>
+</table>
+<!-- 
+| AS203314 Hats Network | Free VM & Transit in Hong Kong | 
+| AS140731 TOHU Public Internet | Free transit in Hong Kong
+| AS57406 Zero Distance LLC | Free VM in Zero IX SJC
+
+--></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2026-02-08 09:47:32.135051+00:00
+-->
