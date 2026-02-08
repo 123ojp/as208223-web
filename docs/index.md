@@ -109,7 +109,7 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | Name | Reason | 
 | --- | --- |
 | AS18041 Taiwan Digital Streaming |  Free transit in Taipei
-| AS44324 MoeDove | Free transit in Taiwan & Hong Kong & Singapore & America & Canada  <br> Free VM in Singapore & Hong Kong
+| AS44324 MoeDove | Free transit in Taiwan & Hong Kong & Japan & Singapore & Canada  <br> Free VM in Hong Kong
 | AS215828 TMW Global Networks | Free transit in Frankfurt <br>  Free VM in TMW-IX
 | AS27523 Kawaii Networks | Free transit in America <br> Free VM in America
 | AS151230 Guangdong Tongri Network Technology| Free IEPL ( Shenzhen <-> Hong Kong ) VM 
