@@ -31,6 +31,7 @@
 | TW Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
 | TW NTHU | TW-TPE2 | ✘ | ✔ | ✘ | ✘ | `2a12:3fc2:dfaa::/48`  
 | TW Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
+| TW TPIX | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
 | TW STUIX | TW-TPE5 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd2::/48`
 | TW FCU | TW-TXG1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfce::/48`
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
@@ -50,7 +51,6 @@
 
 
 <!-- 
-| TW AWS | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
 | TW NTU | TW-TPE-6 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcb::/48`
 | DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
 | HK Skywolf | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
