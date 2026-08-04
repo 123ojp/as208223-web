@@ -31,34 +31,35 @@
 | TW Home | TW-TPE1 | ✔ | ✘ | ✘ | ✘ | `2a0e:8f02:f03d::/48`
 | TW NTHU | TW-TPE2 | ✘ | ✔ | ✘ | ✘ | `2a12:3fc2:dfaa::/48`  
 | TW Poema IX | TW-TPE3 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfdb::/48`  
-| TW TPIX | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
+| TW MD | TW-TPE4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd5::/48`  
 | TW STUIX | TW-TPE5 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd2::/48`
 | TW FCU | TW-TXG1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfce::/48`
 | JP Oracle | JP-OSA1  | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfdf::/48` 
 | JP Vultr | JP-TYO1  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfdc::/48`
+| JP KDDI | JP-TYO2 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcd::/48`  
+| JP TYIX | JP-TYO3  | ✘ | ✘ | ✔ | ✘ |  `2a12:3fc2:dfd3::/48`
 | HK MDIX |  HK-HKG1 | ✘ | ✘ | ✘ | ✘ |  `2401:af20:dfd7::/48` 
 | HK DMIT |  HK-HKG2 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfdd::/48` 
 | HK AKIX | HK-HKG3 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfcf::/48`
 | HK DSIX | HK-HKG5  | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfd1::/48`
 | CN Spark VM | CN-SZX1 | ✘ | ✘ | ✘ | ✘ |  `2401:af20:dfd0::/48`
-| SG Oracle | SG-SIN1 | ✔ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
+| SG Oracle | SG-SIN1 | ✘ | ✔ | ✔ | ✔ | `2a12:3fc2:dfd9::/48` 
+| SG Vultr | SG-SIN2  | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfde::/48`
 | CA Oracle | CA-YYZ1 | ✘ | ✔ | ✔ | ✘ | `2401:af20:dfc8::/48`
 | CA CXIX | CA-YUL1 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcc::/48`
 | US Kawaii MCI | US-MCI1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48` 
 | US NHIX MCI | US-MCI2  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfca::/48` 
-| US Axivora MCI| US-MCI3  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
+| NL Axivora AMS Kawaii-IX| NL-ASM1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
 | DE TMW-IX | DE-FRA2 | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd4::/48`
+| FR MDIX | FR-RBX1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
+
 
 
 <!-- 
 | TW NTU | TW-TPE-6 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcb::/48`
-| DE AWS | DE-FRA1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
-| HK Skywolf | HK-HKG1  | ✔ | ✘ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 | KR AWS| KR-ICN1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd0::/48`
 | US Vultr ORD | US-ORD1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48`  
 | CN AKIX TFU | CN-TFU1 | ✘ | ✘ | ✘ | ✘ |  `2a12:3fc2:dfd3::/48`
-| HK MDIX | HK-HKG4 | ✘ | ✘ | ✘ | ✘ | `2a12:3fc2:dfcd::/48`  
-| CA Unmetered.Exchange | CA-YVR1 | ✔ | ✔ | ✔ | ✔ |  `2a12:3fc2:dfde::/48`
 
 -->
 
@@ -109,16 +110,17 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | Name | Reason | 
 | --- | --- |
 | AS18041 Taiwan Digital Streaming |  Free transit in Taipei
-| AS44324 MoeDove | Free transit in Taiwan & Hong Kong & Japan & Singapore & Canada  <br> Free VM in Hong Kong
+| AS44324 MoeDove | Free transit in France & Hong Kong & Japan & Singapore & Canada  <br> Free VM in Hong Kong & France
+| AS204921 zhenyun sun |  Free transit in Taipei
+| AS213605 Pysio NetWork | Free transit in Taiwan & Hong Kong <br> Free VM in AKIX 
+| AS209109 DataSphere | Free transit in Hong Kong <br> Free VM in DSIX
+| AS204539 Axivora Connect LtD | Free transit in Netherlands <br> Free VM in Netherlands 
 | AS215828 TMW Global Networks | Free transit in Frankfurt <br>  Free VM in TMW-IX
 | AS27523 Kawaii Networks | Free transit in America <br> Free VM in America
 | AS151230 Guangdong Tongri Network Technology| Free IEPL ( Shenzhen <-> Hong Kong ) VM 
-| AS209109 DataSphere | Free transit in Hong Kong <br> Free VM in DSIX
-| AS216324 Hyper Group Network Ltd | Free transit in America <br> Free VM in HNIX
-| AS204539 Axivora Connect LtD | Free transit in America <br> Free VM in America
 | AS138517 KSKB | Free VM in Poema IX  
-| AS151673 CXY | Free VM in CXIX  
-| AS213605 Pysio NetWork | Free transit in Taiwan & Hong Kong <br> Free VM in AKIX 
+| AS151673 CXY | Free VM in CXIX & TYIX  
+| AS215172 JIANYUELAB |  Free KDDI VM in Japan
 | <del>AS202888 ZH NETWORK LIMITED (Archived)</del> <br> AS210000 DAOport Internet Infrastructure | Free IPv6 Prefix /40
 | AS138211 MoeQing Network Service |  Free IPv6 Prefix /44
 | AS6939 Hurricane Electric |  Free transit in Taipei & Canada
@@ -127,6 +129,7 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 
 
 <!-- 
+| AS216324 Hyper Group Network Ltd | Free transit in America <br> Free VM in HNIX
 | AS203314 Hats Network | Free VM & Transit in Hong Kong | 
 | AS140731 TOHU Public Internet | Free transit in Hong Kong
 | AS57406 Zero Distance LLC | Free VM in Zero IX SJC
