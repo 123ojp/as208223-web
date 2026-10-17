@@ -50,9 +50,11 @@
 | US Kawaii MCI | US-MCI1  | ✘ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd8::/48` 
 | US NHIX MCI | US-MCI2  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfca::/48` 
 | NL Axivora AMS Kawaii-IX| NL-ASM1  | ✘ | ✘ | ✔ | ✘ | `2a12:3fc2:dfd6::/48`
-| DE TMW-IX | DE-FRA2 | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd4::/48`
-| FR MDIX | FR-RBX1 | ✔ | ✘ | ✘ | ✔ |  `2a12:3fc2:dfda::/48`  
-
+| DE TMW-IX | DE-FRA1 | ✔ | ✔ | ✔ | ✘ | `2a12:3fc2:dfd4::/48`
+| UK MDIX | UK-LON1| ✔ | ✘ | ✘ | ✔ |  `2401:af20:dfc7::/48`  
+| FR MDIX | FR-RBX1 | ✔ | ✘ | ✘ | ✔ |  `2401:af20:dfda::/48`  
+| DE MDIX| DE-FRA2| ✔ | ✘ | ✘ | ✔ |  `2401:af20:dfc5::/48`  
+| ES IFOG| ES-BCN1|  ✔ | ✘ | ✘ | ✔ |  `2401:af20:dfc6::/48`  
 
 
 <!-- 
@@ -110,14 +112,14 @@ traceroute to art.as208223.eu.org (2a12:3fc2:dfd9:dead:1337:6666:0:ffff), 30 hop
 | Name | Reason | 
 | --- | --- |
 | AS18041 Taiwan Digital Streaming |  Free transit in Taipei
-| AS44324 MoeDove | Free transit in France & Hong Kong & Japan & Singapore & Canada  <br> Free VM in Hong Kong & France
+| AS44324 MoeDove | Free transit in France & Hong Kong & Japan & Singapore & Canada  <br> Free VM in Hong Kong & France & London & Frankfurt
 | AS204921 zhenyun sun |  Free transit in Taipei
 | AS213605 Pysio NetWork | Free transit in Taiwan & Hong Kong <br> Free VM in AKIX 
 | AS209109 DataSphere | Free transit in Hong Kong <br> Free VM in DSIX
 | AS204539 Axivora Connect LtD | Free transit in Netherlands <br> Free VM in Netherlands 
 | AS215828 TMW Global Networks | Free transit in Frankfurt <br>  Free VM in TMW-IX
 | AS27523 Kawaii Networks | Free transit in America <br> Free VM in America
-| AS151230 Guangdong Tongri Network Technology| Free IEPL ( Shenzhen <-> Hong Kong ) VM 
+| AS151230 Guangdong Tongri Network Technology| Free Hong Kong VM 
 | AS138517 KSKB | Free VM in Poema IX  
 | AS151673 CXY | Free VM in CXIX & TYIX  
 | AS215172 JIANYUELAB |  Free KDDI VM in Japan
